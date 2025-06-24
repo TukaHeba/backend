@@ -17,4 +17,8 @@ class Student extends Model
     {
         return $this->hasOne(StudentInfo::class);
     }
+    public function classes()
+    {
+        return $this->hasOne(StudentInfo::class);
+    }
 }
