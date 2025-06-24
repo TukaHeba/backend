@@ -11,6 +11,8 @@ Route::get('/', function () {
 });
 
 Route::resource('students', StudentController::class);
-Route::resource('courses', CourseController::class);
+Route::resource('coursessss', CourseController::class);
+Route::resource('coursessss', CourseController::class);
+
 Route::resource('student-infos', StudentInfoController::class);
 Route::resource('teachers', TeacherController::class);
