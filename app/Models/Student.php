@@ -13,9 +13,16 @@ class Student extends Model
         return $this->belngsTo(Course::class);
     }
 
-    public function profile()
+    public function profile1()
     {
         return $this->hasOne(StudentInfo::class);
     }
-   
+    public function profile2()
+    {
+        return $this->hasOne(StudentInfo::class);
+    }
+    public function profile3()
+    {
+        return $this->hasOne(StudentInfo::class);
+    }
 }
